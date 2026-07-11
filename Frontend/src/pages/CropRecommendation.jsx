@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import FormField from '../components/FormField.jsx'
+import FormField from '../component/FormField.jsx'
 import { recommendCrop } from '../api/api.js'
 
 const INITIAL = {
