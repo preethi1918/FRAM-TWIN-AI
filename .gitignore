@@ -1,0 +1,27 @@
+# ---- General ----
+.DS_Store
+*.log
+.env
+.env.local
+
+# ---- Backend (Java / Maven) ----
+backend/target/
+backend/.mvn/
+*.class
+
+# ---- ML service (Python) ----
+ml-service/__pycache__/
+ml-service/**/__pycache__/
+ml-service/venv/
+ml-service/.venv/
+*.pyc
+
+# ---- Frontend (Node) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
