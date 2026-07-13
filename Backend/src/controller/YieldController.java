@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/yield")
-public class YieldController {
+public class YeildController {
 
     private final MLClientService mlClientService;
 
